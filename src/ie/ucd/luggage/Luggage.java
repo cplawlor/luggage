@@ -94,6 +94,8 @@ public abstract class Luggage {
 		return Danger;
 		
 	}
+
+	
 	
 
 }

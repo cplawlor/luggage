@@ -5,7 +5,7 @@ package ie.ucd.luggage;
  * @author liliana
  *
  */
-public interface Item {
+public interface Item  {
 	
 	/**
 	 * 
