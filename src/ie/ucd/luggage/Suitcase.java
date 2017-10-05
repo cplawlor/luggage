@@ -1,15 +1,16 @@
 package ie.ucd.luggage;
 
 public class Suitcase extends Luggage{
+	private double bagWeight;
+	private double maxWeight;
 
 	public double getBagWeight() {
-		// TODO Auto-generated method stub
-		return 0;
+		return bagWeight;
 	}
 
 	public double getMaxWeight() {
-		// TODO Auto-generated method stub
-		return 0;
+		return maxWeight;
 	}
 
+	
 }

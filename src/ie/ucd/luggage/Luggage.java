@@ -80,8 +80,19 @@ public abstract class Luggage {
 	 * @return whether the luggage contains a dangerous item
 	 */
 	//TO BE COMPLETED
+	private boolean Danger;
+	
 	public boolean isDangerous(){
-		return false;
+		for(Item i: items){
+			if (i.isDangerous()) { 
+				Danger = true;
+				break; }
+			
+			else  {
+				Danger = false; }
+		}
+		return Danger;
+		
 	}
 	
 
