@@ -3,7 +3,7 @@ package ie.ucd.luggage;
 public class Laptop implements Item{
 	
 	public String getType() {
-		return "ASUS";
+		return "Laptop";
 	}
 	
 	public double getWeight() {

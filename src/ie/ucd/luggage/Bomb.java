@@ -3,7 +3,7 @@ package ie.ucd.luggage;
 public class Bomb implements Item {
 	
 	public String getType() {
-		return "dynomite";
+		return "Bomb";
 	}
 	
 	public double getWeight() {
