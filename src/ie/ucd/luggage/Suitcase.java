@@ -1,8 +1,13 @@
 package ie.ucd.luggage;
 
 public abstract class Suitcase extends Luggage{
-	private double bagWeight =6;
-	private double maxWeight =20;
+	private double bagWeight;
+	private double maxWeight;
+	
+	public Suitcase(double bagWeight, double maxWeight){
+		this.bagWeight = bagWeight;
+		this.maxWeight = maxWeight;
+	}
 
 	public double getBagWeight() {
 		return bagWeight;
@@ -11,6 +16,5 @@ public abstract class Suitcase extends Luggage{
 	public double getMaxWeight() {
 		return maxWeight;
 	}
-
 	
 }
